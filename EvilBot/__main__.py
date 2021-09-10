@@ -75,7 +75,7 @@ buttons = [
      [
         InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
         InlineKeyboardButton(
-            text="𝐌𝐲 𝐖𝐞𝐛🌐", url=f"http://evilbotz.art.blog"
+            text="𝐌𝐲 𝐖𝐞𝐛", url=f"http://evilbotz.art.blog"
         ),
      ],
      [  
