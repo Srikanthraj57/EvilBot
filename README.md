@@ -1,4 +1,4 @@
-<h1 align=center>😈 Legend Bot 😈</h1>
+<h1 align=center>😈 Sriki RoBot 😈</h1>
 <img src = "https://telegra.ph/file/91825bb09d851ac589703.jpg">
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
