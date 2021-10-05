@@ -89,9 +89,9 @@ buttons = [
 HELP_STRINGS = """
 `𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 * Sriki 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/91825bb09d851ac589703.jpg)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-evil_IMG = "https://telegra.ph/file/5dc8f5c53fb0c39ed983c.jpg"
+Sriki_IMG = "https://telegra.ph/file/91825bb09d851ac589703.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @shrvan42 \
+ You can support the project via [Paypal](#) or by contacting @srikanth_36 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 IMPORTED = {}
@@ -293,7 +293,7 @@ def help_button(update, context):
         # query.message.delete()
     except BadRequest:
         pass
-@run_async
+@srikanth_36
 def evil_about_callback(update, context):
     query = update.callback_query
     if query.data == "evil_":
@@ -330,8 +330,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
+            text=""" Hey!.. I'm *Sriki Robot*
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
